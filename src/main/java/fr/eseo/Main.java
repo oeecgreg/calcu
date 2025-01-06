@@ -4,10 +4,11 @@ package fr.eseo;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to calculatrice :) \n" +
-                "quell operation souhaiter vous faire?\n" +
-                "addition : + \n" +
-                "soustraction: - \n" +
-                "multiplication : * \n");
+        System.out.println("Welcome to calculatrice :) \n \n" +
+                "Quelle opération souhaitez-vous faire ? :\n \n" +
+                "- Addition (+).\n" +
+                "- Soustraction (-).\n" +
+                "- Multiplication (*).\n" +
+                "- Quitter.\n");
     }
 }

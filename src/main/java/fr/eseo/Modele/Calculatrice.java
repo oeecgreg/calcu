@@ -4,6 +4,7 @@ public class Calculatrice {
     int chiffre1;
     int chiffre2;
 
+    //Constructeur de la classe calculatrice.
     public Calculatrice(int chiffre1, int chiffre2) {
         this.chiffre1 = chiffre1;
         this.chiffre2 = chiffre2;
