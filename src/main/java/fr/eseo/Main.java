@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to calculatrice :) \n \n" +
                 "Quelle opération souhaitez-vous faire ? :\n \n" +
-                "- Addition (+).\n" +
-                "- Soustraction (-).\n" +
-                "- Multiplication (*).\n" +
-                "- Quitter.\n");
+                "1- Addition (+).\n" +
+                "2- Soustraction (-).\n" +
+                "3- Multiplication (*).\n" +
+                "4- Quitter.\n");
     }
 }
