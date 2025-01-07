@@ -12,13 +12,12 @@ public class View {
                 "3- Multiplication (*)\n" +
                 "4- Quitter");
         int operation = scanner.nextInt();
-        System.out.println("you chose " + operation);
-        System.out.println("Choisi ton premier nombre");
+        System.out.print("Choisi ton premier nombre : ");
         int nombre1 = scanner.nextInt();
-        System.out.println("you chose " + nombre1);
-        System.out.println("Choisi ton deuxieme nombre");
+        System.out.println("Tu as choisis " + nombre1 + ".");
+        System.out.print("Choisi ton deuxième nombre : ");
         int nombre2 = scanner.nextInt();
-        System.out.println("you chose " + nombre2);
+        System.out.println("Tu as choisis " + nombre2 + ".");
         CalculatriceControlleur calculatrice = new CalculatriceControlleur();
         System.out.println(calculatrice.choixOp(operation, nombre1, nombre2));
     }
