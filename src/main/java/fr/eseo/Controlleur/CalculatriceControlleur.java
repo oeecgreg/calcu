@@ -16,5 +16,13 @@ public class CalculatriceControlleur {
         }
         return resultat;
     }
+    public boolean reapeat(String choice){
+        if (choice.equals("o")) {
+            return true;
+        }else if (choice.equals("n")) {
+            return false;
+        }
+        return false;
+    }
 
 }
