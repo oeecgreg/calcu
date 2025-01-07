@@ -17,8 +17,8 @@ public class View {
         System.out.println("Tu as choisis " + nombre1 + ".");
         System.out.print("Choisi ton deuxième nombre : ");
         int nombre2 = scanner.nextInt();
-        System.out.println("Tu as choisis " + nombre2 + ".");
+        System.out.println("Tu as choisis " + nombre2 + ".\n");
         CalculatriceControlleur calculatrice = new CalculatriceControlleur();
-        System.out.println(calculatrice.choixOp(operation, nombre1, nombre2));
+        System.out.println("Le résultat est " + calculatrice.choixOp(operation, nombre1, nombre2) + ".");
     }
 }
