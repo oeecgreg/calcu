@@ -20,7 +20,5 @@ public class Main {
         System.out.println("Choisi ton deuxieme nombre");
         int nombre2 = scanner.nextInt();
         System.out.println("you chose " + nombre2);
-
-
     }
 }
