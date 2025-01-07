@@ -23,8 +23,5 @@ public class Main {
         System.out.println("you chose " + nombre2);
         CalculatriceControlleur calculatrice = new CalculatriceControlleur();
         //System.out.println(calculatrice.choixOp(operation, nombre1, nombre2));
-
-
-
     }
 }
