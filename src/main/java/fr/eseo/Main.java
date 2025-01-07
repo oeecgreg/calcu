@@ -1,4 +1,5 @@
 package fr.eseo;
+import fr.eseo.Controlleur.CalculatriceControlleur;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -20,6 +21,9 @@ public class Main {
         System.out.println("Choisi ton deuxieme nombre");
         int nombre2 = scanner.nextInt();
         System.out.println("you chose " + nombre2);
+        CalculatriceControlleur calculatrice = new CalculatriceControlleur();
+        //System.out.println(calculatrice.choixOp(operation, nombre1, nombre2));
+
 
 
     }
