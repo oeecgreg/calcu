@@ -12,7 +12,7 @@ public class View {
                 "3- Multiplication (*)\n" +
                 "4- Quitter");
         int operation = scanner.nextInt();
-        System.out.println("you chose " + operation);
+        System.out.println("Le premier nombre est " + operation);
         System.out.println("Choisi ton premier nombre");
         int nombre1 = scanner.nextInt();
         System.out.println("you chose " + nombre1);
