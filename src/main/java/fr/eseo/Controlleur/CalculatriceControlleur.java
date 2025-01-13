@@ -11,7 +11,6 @@ public class CalculatriceControlleur {
             case 1 -> resultat = calculatrice.plus();
             case 2 -> resultat = calculatrice.minus();
             case 3 -> resultat = calculatrice.multi();
-            case 4 -> System.out.println("A plus tard.");
             default -> System.out.println("Erreur dans les choix");
         }
         return resultat;
