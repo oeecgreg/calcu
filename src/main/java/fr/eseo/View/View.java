@@ -13,16 +13,20 @@ public class View {
                     "1- Addition (+)\n" +
                     "2- Soustraction (-)\n" +
                     "3- Multiplication (*)\n");
-             int operation = scanner.nextInt();
-            System.out.print("Choisi ton premier nombre : ");
-            int nombre1 = scanner.nextInt();
-            System.out.println("Tu as choisis " + nombre1 + ".");
-            System.out.print("Choisi ton deuxième nombre : ");
-            int nombre2 = scanner.nextInt();
-            System.out.println("Tu as choisis " + nombre2 + ".\n");
+            int operation = scanner.nextInt();
+            if (operation < 1 || operation > 3){
+                System.out.println("Erreur dans les choix");
+            } else {
+                System.out.print("Choisi ton premier nombre : ");
+                int nombre1 = scanner.nextInt();
+                System.out.println("Tu as choisis " + nombre1 + ".");
+                System.out.print("Choisi ton deuxième nombre : ");
+                int nombre2 = scanner.nextInt();
+                System.out.println("Tu as choisis " + nombre2 + ".\n");
 
-            System.out.println("Le résultat est " + calculatrice.choixOp(operation, nombre1, nombre2)+".\n \n" +
-                    "Voulez-vous faire une autre opération?\n" +
+                System.out.println("Le résultat est " + calculatrice.choixOp(operation, nombre1, nombre2)+".\n \n");
+            }
+            System.out.println("Voulez-vous faire une autre opération?\n" +
                     "Oui (o) ou Non (n)");
             reapeat = scanner.next();
         }
